@@ -11,7 +11,8 @@ Built with React (frontend), Flask (backend), Python ML (summarization, NER).
 ### Backend
 ```bash
 cd backend
-python -m venv venv && source venv/bin/activate
+python -m venv venv 
+.\venv\Script\activate
 pip install -r requirements.txt
 flask run
 
